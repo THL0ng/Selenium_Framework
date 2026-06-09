@@ -15,7 +15,7 @@
     <maven.compiler.target>21</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <allure.version>2.29.0</allure.version>
-  </properties>
+    <log4j2.version>2.25.3</log4j2.version> </properties>
 
   <dependencies>
     <dependency>
@@ -45,17 +45,16 @@
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-api</artifactId>
-      <version>2.25.3</version>
+      <version>${log4j2.version}</version>
     </dependency>
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-core</artifactId>
-      <version>2.25.3</version>
+      <version>${log4j2.version}</version>
     </dependency>
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
-      <artifactId>log4j-slf4j-impl</artifactId>
-      <version>2.25.3</version>
+      <artifactId>log4j-slf4j2-impl</artifactId> <version>${log4j2.version}</version>
     </dependency>
     <dependency>
       <groupId>io.sentry</groupId>
@@ -95,7 +94,6 @@
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
       <version>1.18.46</version>
-      <scope>provided</scope>
     </dependency>
   </dependencies>
 
