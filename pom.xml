@@ -95,7 +95,19 @@
       <artifactId>lombok</artifactId>
       <version>1.18.46</version>
     </dependency>
+
+    <dependency>
+      <groupId>com.codeborne</groupId>
+      <artifactId>selenide</artifactId>
+      <version>7.16.2</version>
+      <scope>test</scope>
+    </dependency>
+
   </dependencies>
+
+
+
+
 
   <build>
     <plugins>
