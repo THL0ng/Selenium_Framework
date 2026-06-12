@@ -1,0 +1,4 @@
+[
+  { "testCase": "valid user", "name": "John", "email": "john@email.com", "password": "123456", "expectedResult": "success" },
+  { "testCase": "empty email", "name": "John", "email": "", "password": "123456", "expectedResult": "error" }
+]
