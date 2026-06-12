@@ -1,6 +1,6 @@
 package com.project.testcases;
 
-import com.project.base.BaseTest;
+import com.project.base.BaseUITest;
 import io.qameta.allure.Description;
 import io.qameta.allure.Step;
 import org.apache.logging.log4j.LogManager;
@@ -8,7 +8,7 @@ import org.apache.logging.log4j.Logger;
 import org.testng.annotations.Test;
 import static com.codeborne.selenide.Selenide.*;
 
-public class test_01 extends BaseTest {
+public class test_01 extends BaseUITest {
 
     private static final Logger logger = LogManager.getLogger(test_01.class);
 
